@@ -30,4 +30,10 @@ public class BackendController {
     public String backend4() {
         return "backend3";
     }
+    
+    
+    @GetMapping("/backend5")
+    public String backend5() {
+        return "backend3";
+    }
 }
